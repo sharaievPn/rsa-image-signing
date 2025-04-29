@@ -22,7 +22,7 @@ def embed_signature_lsb(image_path: str, signature: bytes, output_path: str):
                 break
 
             r, g, b = pixels[x, y]
-            # taking each least significant pixel for red channel
+            # least significant bit for red channel
             r = (r & ~1) | int(signature_bits[bit_idx])
             bit_idx += 1
             pixels[x, y] = (r, g, b)
