@@ -71,7 +71,7 @@ rsa-image-signing/
 ![Original Image](./images/original_labrador.png)
 
 Після створення підпису, це зображення було підписане та збережене. Можна звернути увагу, що якісні зміни зображення є абсолютно невидимі людському оку.
-![Signed Image](./images/signed_labrador.png)
+![Signed Image](./images/encrypted_labrador.png)
 
 ## Деталі реалізації
 - **Стеганографія LSB**:  
